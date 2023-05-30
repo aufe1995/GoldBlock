@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/init_color"
+    tools:context=".UserJoinActivity">
+
+    <TextView
+        android:id="@+id/main_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_main_join"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.110000014" />
+
+    <TextView
+        android:id="@+id/main_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/join_desc"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_name"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="326dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_desc"
+        app:layout_constraintVertical_bias="0.32999998">
+
+        <TextView
+            android:id="@+id/join_name"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="@string/join_name" />
+
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_main"
+            android:ems="10"
+            android:hint="@string/ex_name"
+            android:inputType="text"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/join_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/join_birth" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/input_brith"
+                android:layout_width="155dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_main"
+                android:ems="10"
+                android:hint="@string/ex_birth"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/hyphen"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/hyphen" />
+
+            <EditText
+                android:id="@+id/input_gender"
+                android:layout_width="155dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_main"
+                android:ems="10"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/join_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/join_phone" />
+
+        <EditText
+            android:id="@+id/input_phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_main"
+            android:ems="10"
+            android:inputType="phone" />
+
+        <TextView
+            android:id="@+id/join_auth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/join_auth" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp">
+
+            <EditText
+                android:id="@+id/input_auth"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_main"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Name" />
+
+            <Button
+                android:id="@+id/button_auth"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginLeft="225dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/btn_sub"
+                android:text="@string/check" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_next"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/btn_sub"
+                android:text="@string/next" />
+
+            <Button
+                android:id="@+id/button_back"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_sub"
+                android:text="@string/back_kor" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

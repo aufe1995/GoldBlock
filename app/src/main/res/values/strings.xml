@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">GoldBlock</string>
+    <string name="main_icon">main_icon</string>
+
+    <string name="icon_name">FPP</string>
+    <string name="icon_desc">Finger Print Project</string>
+
+    <string name="choice_name">시작하기</string>
+    <string name="choice_desc">계정 유형을 선택해 주세요.</string>
+    <string name="choice_user">사용자</string>
+    <string name="choice_admin">관리자</string>
+
+    <string name="user_main_name">사용자</string>
+    <string name="user_main_desc">활동을 선택해 주세요.</string>
+    <string name="user_main_login">로그인</string>
+    <string name="user_main_join">회원가입</string>
+
+    <string name="join_desc">회원 정보를 입력해 주세요.</string>
+    <string name="join_name">이름 :</string>
+    <string name="join_birth">생년월일 :</string>
+    <string name="join_phone">전화번호 :</string>
+    <string name="join_auth">인증번호 :</string>
+    <string name="ex_name">  이름</string>
+    <string name="ex_birth">  생년월일</string>
+    <string name="ex_phone">  전화번호</string>
+    <string name="ex_auth">  인증번호</string>
+    <string name="hyphen"> - </string>
+
+    <string name="auth_desc">지문을 입력해 주세요.</string>
+
+    <string name="admin_main_name">관리자</string>
+    <string name="admin_main_desc">활동을 선택해 주세요.</string>
+    <string name="admin_main_login">로그인</string>
+    <string name="admin_main_join">가맹점 등록</string>
+
+    <string name="add_desc">가맹주 정보를 입력해 주세요.</string>
+
+    <string name="check">확인</string>
+    <string name="next">다음</string>
+    <string name="back_kor">뒤로가기</string>
+
+    <string name="main_coin">FPP Coin</string>
+    <string name="main_change">정보 동의 변경</string>
+    <string name="main_trans">코인 전송</string>
+    <string name="main_point">ko ></string>
+
+    <string name="back">&lt;</string>
+
+    <string name="buy">구매정보 ></string>
+    <string name="profileEdit">프로필 편집 ></string>
+
+    <string name="grade">KKODA 님의 등급은 GOLD 입니다</string>
+
+    <string name="point">사용 가능 포인트 : 410P </string>
+
+    <string name="coupon">쿠폰</string>
+    <string name="mission">미션</string>
+    <string name="coupon_add">쿠폰 발행</string>
+    <string name="mission_add">미션 등록</string>
+
+    <string name="admin_location">회사명</string>
+    <string name="qr_auth">QR스캐너</string>
+
+    <string name="coin">잔여 코인 : 1,000,000,000GB</string>
+    <string name="log">판매로그></string>
+
+    <string name="grade_desc">현재 등급은\nGold 입니다.</string>
+    <string name="point_desc">※ 등급은 획득 포인트 총량으로 결정 됩니다.</string>
+
+    <string name="grade_guide">등급 안내</string>
+    <string name="grade_guide_desc">브론즈 : 0P ~ 100P\n실버 : 101P ~ 500P\n골드   : 501P ~ 1000P\n다이아 : 1001P ~ </string>
+</resources>
